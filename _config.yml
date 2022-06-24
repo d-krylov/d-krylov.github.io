@@ -23,9 +23,26 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
     Hello. My name is Denis and it's my blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://d-krylov.github.io # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter:
 github_username: d-krylov
+
+
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: d-krylov
+  linkedin: 
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
 
 # Build settings
 theme: minima
