@@ -1,0 +1,39 @@
+header:
+    name: Denis Krylov
+    current_title: Senior Compiler Engineer
+    about:: >
+        Software developer with with major specialization in compiler development.
+        Proficient in.  
+        
+
+contact:
+    email:
+    telegram:
+    github:
+
+skills:    
+    skill: "C++ programming"
+    description: 
+    
+
+experience:
+
+    company: "Huawei Russian Research Institute Moscow" 
+    logo: "/image/company_logos/Huawei_Logo.svg.png"
+    position:
+    project:
+    url: "https://www.huawei.com/en/"
+    start_date: 2020-11-
+    end_date: Current time
+    description: 
+    
+    company: "Samsung R&D Institute Russia"
+    logo: "/image/company_logos/Samsung_Logo.svg.png"
+    position:
+    project: "https://github.com/Samsung/One"
+    url: "https://research.samsung.com/srr"
+    start_date:
+    end_date: 2020-11-10
+    
+interests:
+    

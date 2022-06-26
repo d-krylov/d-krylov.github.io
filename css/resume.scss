@@ -1,0 +1,17 @@
+---
+---
+
+@mixin heading-font {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+
+
+.header-name {
+        @include heading-font;
+        text-align: center;
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 1;
+        letter-spacing: -.1rem;
+    }

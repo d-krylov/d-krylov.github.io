@@ -22,6 +22,10 @@ permalink: /links/
 * [foonathan::​blog()](https://www.foonathan.net/)
 * [Eric Niebler](https://ericniebler.com/)
 
+# Functional Programming
+
+* [Paolo Capriotti's blog](https://www.paolocapriotti.com)
+
 # General
 
 * [Bartosz Milewski's Programming Cafe](https://bartoszmilewski.com/)
