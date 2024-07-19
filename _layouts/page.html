@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+<body>
+
+  {% include header.html %}
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1 has-text-centered mt-5 is-uppercase has-text-weight-bold">{{page.title}}</h1>
+        <hr class="has-background-black">
+        <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

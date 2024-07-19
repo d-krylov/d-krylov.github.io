@@ -1,0 +1,36 @@
+<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+    
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      {% if page.layout != 'home' %} <img class="is-rounded" src="{{site.avatar}}"/> {% endif %}
+    </a>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="{{site.url}}/about">About</a>
+      <a class="navbar-item" href="{{site.url}}/projects">Projects</a>
+      <a class="navbar-item" href="{{site.url}}/blog">Blog</a>
+    </div>
+  </div>
+
+</nav>
+
+{% if page.layout == 'home' %}
+  <section class="hero is-medium is-dark">
+
+    <div class="hero-body">
+    
+      <div class="container has-text-centered">
+      
+        <figure class="image image is-inline-block" id="avatar">
+          <img class="image is-1by1 is-rounded" src="{{site.avatar}}"/>
+        </figure>
+
+        <h1 class = "title mt-5 has-text-white">{{site.title}}</h1>
+      </div>
+    </div>
+
+  </section>
+{% endif %}
+

@@ -1,0 +1,23 @@
+title: Neverwhere
+email: 
+description: >- 
+
+include:
+  - _pages
+
+baseurl: ''
+url: ""
+
+github_username:  d-krylov
+
+avatar: /assets/images/avatar.jpg
+page404: /assets/images/404.jpg
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+theme: minima
+plugins:
+  - jekyll-feed
