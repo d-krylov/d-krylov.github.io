@@ -1,0 +1,33 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+<body>
+  
+  {% include header.html %}
+
+  <section class="hero is-fullheight">
+    
+    <div class="hero-body">
+      
+      <div class="container">
+        {% for post in paginator.posts %}
+          {% include blog_card.html %}
+        {% endfor %}
+      </div>
+
+    </div>
+
+    {% include pagination.html %}
+
+  </section>
+
+ 
+
+
+</body>
+
+</html>

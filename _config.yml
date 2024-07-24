@@ -8,6 +8,9 @@ include:
 baseurl: ''
 url: ""
 
+paginate: 4
+paginate_path: "/blog/:num/"
+
 github_username:  d-krylov
 
 avatar: /assets/images/avatar.jpg
@@ -21,3 +24,5 @@ kramdown:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll_include_plugin
