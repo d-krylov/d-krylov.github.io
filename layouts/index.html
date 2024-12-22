@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="hero">
+
+  <div class="hero-body mt-6">
+  
+    <div class="container has-text-centered">
+      
+      <figure class="image is-inline-block" id="avatar">
+        <img class="image is-1by1 is-rounded" src="{{ .Site.Params.avatar }}" alt="Avatar"/>
+      </figure>
+      
+      <h1 class="title mt-5 has-text-black">{{ .Site.Title }}</h1>
+    
+    </div>
+
+  </div>
+
+  {{ partial "social.html" . }}
+
+</section>
+{{ end }}

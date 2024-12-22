@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Neverwhere'
+
+
+[params]
+avatar = "/images/avatar.jpg"
+
+  [params.social]
+    github = "https://github.com/d-krylov"
+    linkedin = "https://linkedin.com/in/yourusername"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
