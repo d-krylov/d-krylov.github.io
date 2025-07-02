@@ -1,0 +1,84 @@
+<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarMenu" class="navbar-menu">
+
+    <div class="navbar-start">
+
+    </div>
+
+    <div class="navbar-end">
+
+      <a class="navbar-item" href="/">
+        <span class="icon">
+          <i class="fas fa-home"></i>
+        </span>
+        <span>Home</span>
+      </a>
+
+      <a class="navbar-item" href="/blog">
+        <span class="icon">
+          <i class="fas fa-blog"></i>
+        </span>
+        <span>Blog</span>
+      </a>
+      
+      <a class="navbar-item" href="/projects">
+        <span class="icon">
+          <i class="fas fa-code"></i>
+        </span>
+        <span>Projects</span>
+      </a>
+      
+      <a class="navbar-item" href="/about">
+        <span class="icon">
+          <i class="fas fa-user"></i>
+        </span>
+        <span>About</span>
+      </a>
+
+      <a class="navbar-item" href="/learning">
+        <span class="icon">
+          <i class="fas fa-graduation-cap"></i>
+        </span>
+        <span>Learning</span>
+      </a>
+
+      <a class="navbar-item" href="/gallery">
+        <span class="icon">
+          <i class="fas fa-image"></i>
+        </span>
+        <span>Gallery</span>
+      </a>
+
+      <a class="navbar-item" href="/blogroll">
+        <span class="icon">
+          <i class="fas fa-link"></i>
+        </span>
+        <span>Blogroll</span>
+      </a>
+
+      <a class="navbar-item" href="/cv/build/cv.pdf">
+        <span class="icon">
+          <i class="fas fa-file-lines"></i>
+        </span>
+        <span>CV</span>
+      </a>
+
+    </div>
+
+  </div>
+
+</nav>
+
+{{ $navbar := resources.Get "js/navbar.js" | minify | fingerprint }}
+
+<script src="{{ $navbar.RelPermalink }}" integrity="{{ $navbar.Data.Integrity }}"></script>

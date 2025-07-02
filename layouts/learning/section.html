@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<section class="section mt-5">
+
+  <div class="container has-text-left">
+
+    <div class="tabs is-toggle is-centered is-boxed">
+      <ul>
+        {{ range $i, $p := sort .Pages "Title" "desc" }}
+          <li class="{{ if eq $i 0 }}is-active{{ end }}">
+            <a data-target="year-{{ $p.Title }}">
+              <span>{{ $p.Title }}</span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+
+    {{ range $i, $p := sort .Pages "Title" "desc" }}
+      <div id="year-{{ $p.Title }}" class="tab-content" style="{{ if ne $i 0 }}display: none;{{ end }}">
+        <div class="content">
+          {{ $p.Content }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.tabs li');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('is-active'));
+        tab.classList.add('is-active');
+
+        contents.forEach(c => c.style.display = 'none');
+        const target = tab.querySelector('a').dataset.target;
+        document.getElementById(target).style.display = '';
+      });
+    });
+  });
+</script>
+{{ end }}

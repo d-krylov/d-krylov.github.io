@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<section class="section mt-5">
+    
+  <div class="container has-text-centered">
+
+    {{ $posts := where site.RegularPages "Section" "posts" }}
+    {{ range $posts }}
+      {{ partial "card.html" . }}
+    {{ end }}
+
+  </div>
+
+
+
+</section>
+
+{{ end }}

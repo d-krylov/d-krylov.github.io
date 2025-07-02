@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Three.js Demo</h1>
+    <div class="box">
+      <div class="canvas-container" id="canvas-wrapper"></div>
+    </div>
+    <p class="content">{{ .Content }}</p>
+  </div>
+</section>
+
+<script type="module" src="/js/application.js"></script>
+
+{{ end }}
