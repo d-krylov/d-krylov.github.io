@@ -1,0 +1,16 @@
+<div class="column is-one-third">
+  <div class="card">
+    <a href="{{ .Get "url" }}" target="_blank">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src="https://www.shadertoy.com/media/shaders/{{ .Get "id" }}.jpg" alt="Shader preview">
+        </figure>
+      </div>
+    </a>
+    <div class="card-content">
+      <div class="content">
+        <p class="title is-8">{{ .Get "title" }}</p>
+      </div>
+    </div>
+  </div>
+</div>
