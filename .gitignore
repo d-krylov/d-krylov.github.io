@@ -1,2 +1,6 @@
 /public
 
+*.aux
+*.log
+*.gz
+*.out
