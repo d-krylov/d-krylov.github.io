@@ -5,7 +5,11 @@ title = "Projects"
 
 ### <a href="https://github.com/d-krylov/Innsmouth" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Innsmouth
 
+Library for experiments with Vulkan. 
+
 ### <a href="https://github.com/d-krylov/Terabithia" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Terabithia
+
+Library for experiments with OpenGL.
 
 ### <a href="https://github.com/d-krylov/Yoth" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Yoth
 
@@ -21,7 +25,7 @@ Modern C++ library implementing several spatial acceleration structures commonly
 
 ### <a href="https://github.com/d-krylov/Algernon" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Algernon
 
-
+Geometry processing library.
 
 ### <a href="https://github.com/d-krylov/Morra" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Morra
 

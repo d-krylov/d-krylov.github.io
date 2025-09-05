@@ -2,6 +2,10 @@
 title = "Blogroll"
 +++
 
+<div class="columns">
+
+<div class="column">
+
 ### Computer Graphics
 
 1. [Inigo Quilez blog](https://iquilezles.org/)
@@ -9,6 +13,18 @@ title = "Blogroll"
 3. [Scratchapixel](https://www.scratchapixel.com/)
 4. [Jacco's Blog](https://jacco.ompf2.com/)
 5. [Nathan Reed](https://www.reedbeta.com/)
+6. [lisyarus blog](https://lisyarus.github.io/blog/)
+
+### Mathematics
+
+1. [math3ma](https://www.math3ma.com/)
+2. [Yufei Zhao](https://yufeizhao.com/)
+3. [XOR's Hammer](https://xorshammer.com/)
+4. [A Point of View](https://dgrozev.wordpress.com/)
+
+</div>
+
+<div class="column">
 
 ### Programming Languages
 
@@ -19,7 +35,9 @@ title = "Blogroll"
 5. [Vorbrodt's C++ Blog](https://vorbrodt.blog/)
 6. [Jean Guegant](https://jguegant.github.io/blogs/tech/)
 
-### Mathematics
+### Common
 
-1. [math3ma](https://www.math3ma.com/)
-2. [Yufei Zhao](https://yufeizhao.com/)
+1. [Lei Mao](https://leimao.github.io/)
+2. [0 FPS](https://0fps.net/)
+
+</div>

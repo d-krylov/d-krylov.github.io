@@ -1,6 +1,6 @@
 +++
 title = 'A selection of math channels on YouTube'
-date = '2024-12-21T20:23:08+04:00'
+date = '2025-09-05'
 draft = false
 summary = 'Introduction'
 tags = ["Learning", "Mathematics"]
@@ -45,3 +45,4 @@ Number Theory, Algebra, Differential Equations
 
 * [Math at Andrews University](https://www.youtube.com/@MathatAndrews)
 
+* [Richard Southwell](https://www.youtube.com/@RichardSouthwell)
