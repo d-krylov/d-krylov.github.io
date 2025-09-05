@@ -4,26 +4,58 @@
   height: auto;
 }
 
+body {
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow: visible;
+}
+
+.container.custom {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  padding: 40px;
+}
+
+.href-icon-color {
+  color: #173a18;
+}
+
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 a.icon:hover {
   color: #333;
 }
 
-.card:hover {
-  transition:
-    transform 0.8s ease,
-    background-color 0.8s ease;
-
-  background-color:aquamarine;
-  transform: scale(1.03);
-}
-
 .canvas-container {
   width: 100%;
-  height: 500px;
+  min-height: 100vh;
   position: relative;
 }
-canvas {
-  width: 100%;
-  height: 100%;
-  display: block;
+
+#blog-card{
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+  transform-origin: center;
+  cursor: pointer;
+  will-change: transform;
+  padding: 20px;
+}
+
+#blog-card:hover,
+#blog-card:focus-within {
+  transform: scale(1.03);
+  background-color: #f5faff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }

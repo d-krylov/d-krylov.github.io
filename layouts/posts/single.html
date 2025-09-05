@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section class="section my-6 py-6">
+
+  <div class="container custom">
+
+    <h1 class="title mt-5 is-size-3 has-text-black">{{ .Title }}</h1>
+
+    {{ range .Params.tags }}
+      <span class="tag is-info"> {{ . }} </span>
+    {{ end }}
+
+    <span class="tag is-white ml-5">
+      <span class="icon"> <i class="fas fa-calendar-alt"></i> </span>
+      <span>{{ .Date.Format "2 Jan 2006" }}</span>
+    </span>
+
+    <hr>
+
+    <div class="content mt-5">
+      {{ .Content }}
+    </div>
+  
+  </div>
+
+</section>
+
+{{ end }}

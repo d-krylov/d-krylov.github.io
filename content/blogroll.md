@@ -8,6 +8,7 @@ title = "Blogroll"
 2. [The blog at the bottom of the sea](https://blog.demofox.org/)
 3. [Scratchapixel](https://www.scratchapixel.com/)
 4. [Jacco's Blog](https://jacco.ompf2.com/)
+5. [Nathan Reed](https://www.reedbeta.com/)
 
 ### Programming Languages
 
