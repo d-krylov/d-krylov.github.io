@@ -30,6 +30,7 @@ tags = ["Learning", "CS"]
 * [Computer Graphics at TU Wien](https://www.youtube.com/@cgtuwien)
 * [Keenan Crane](https://www.youtube.com/@keenancrane)
 * [GetIntoGameDev](https://www.youtube.com/@GetIntoGameDev)
+* [Philipp Kindermann](https://www.youtube.com/@PhilippKindermann)
 * [Inigo Quilez](https://www.youtube.com/@InigoQuilez)
 
 ### Algorithms

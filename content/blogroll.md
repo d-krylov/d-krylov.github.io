@@ -39,5 +39,6 @@ title = "Blogroll"
 
 1. [Lei Mao](https://leimao.github.io/)
 2. [0 FPS](https://0fps.net/)
+3. [Bob Nystrom](https://journal.stuffwithstuff.com/)
 
 </div>

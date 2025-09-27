@@ -3,12 +3,12 @@ languageCode = 'en-us'
 title = 'Neverwhere'
 
 [params]
-avatar = "/images/avatar.jpg"
+avatar = "/images/website/avatar.jpg"
 math = true
 
 [markup]
   [markup.highlight]
-    style = "friendly"
+    style = "monokai"
     lineNos = true
     lineNumbersInTable = true
   [markup.goldmark]

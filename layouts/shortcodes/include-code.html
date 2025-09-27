@@ -1,0 +1,4 @@
+{{- $file := .Get "file" -}}
+{{- $lang := .Get "lang" | default "plaintext" -}}
+{{- $snippet := readFile $file -}}
+{{ highlight $snippet $lang "" -}}
