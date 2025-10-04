@@ -1,5 +1,5 @@
 +++
-date = '2025-09-05'
+date = '2025-09-27'
 draft = false
 title = 'Doubly Connected Edge List: Building'
 summary = ''

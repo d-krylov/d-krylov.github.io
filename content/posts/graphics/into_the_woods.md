@@ -8,6 +8,8 @@ tags = ["Graphics", "Shadertoy", "L-system"]
 
 ## Introduction
 
+В этой статье я хочу разобрать как рисовать деревья с помощью реймаршинга. Техника не явлется сложной. 
+
 *"All the branches of a tree at every stage of its height when put together are equal in thickness to the trunk"*
 
 

@@ -1,11 +1,12 @@
 +++
 date = '2025-09-05'
 draft = true
-title = 'Doubly Connected Edge List: Navigation'
+title = 'Doubly Connected Edge List: Navigation, Implicit building, Boundary Loop detection'
 summary = ''
 tags = ["Graphics", "Geometry"]
 +++
 
+## Navigation
 
 Get halfedges around vertex:
 ```cpp
@@ -36,3 +37,7 @@ std::vector<IndexType> GetVerticesAroundVertex(IndexType index) {
   return out;
 }
 ```
+
+## Implicit Building
+
+## Boundary Loop Detection
