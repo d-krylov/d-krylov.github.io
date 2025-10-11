@@ -2,6 +2,18 @@
 title = "Gallery"
 +++
 
-{{< shadertoy id="ddfcW2" url="https://www.shadertoy.com/view/ddfcW2" title="Green Grass" >}}
+<div class="columns">
 
-{{< shadertoy id="mdsyRM" url="https://www.shadertoy.com/view/mdsyRM" title="Simple Box" >}}
+  <div class="column">
+  {{< image src="/images/gallery/tree.png" title="Random Tree" >}}
+  </div>
+
+  <div class="column">
+  {{< image src="/images/gallery/koch.png" title="Koch snowflake" >}}
+  </div>
+
+  <div class="column">
+  
+  </div>
+
+</div>

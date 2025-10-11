@@ -81,3 +81,7 @@ a.icon:hover {
   background-color: #f5faff;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
+
+.font-pacifico {
+  font-family: "Pacifico", cursive;
+}

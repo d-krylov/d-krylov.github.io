@@ -6,7 +6,7 @@ title = "Projects"
 ### <a href="https://github.com/d-krylov/Innsmouth" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Innsmouth - Vulkan Graphics Library
 
 {{< imagetext src="/images/preview/terabithia.png">}}
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Innsmouth is a C++ project for experimenting with the Vulkan graphics API. It provides convenient wrapper classes for Vulkan objects and supports rendering of GLTF models. The project is designed as a lightweight framework for testing and exploring rendering techniques.
 {{< /imagetext >}}
 
 ---------------
@@ -14,7 +14,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ### <a href="https://github.com/d-krylov/Terabithia" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Terabithia - OpenGL Graphics Library
 
 {{< imagetext src="/images/preview/terabithia.png">}}
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Terabithia is a C++ experimental framework built around OpenGL. It provides convenient wrapper classes for OpenGL objects, integrates ImGui for debugging and UI, and supports rendering of OBJ models. The project serves as a lightweight foundation for experimenting with modern rendering techniques and graphics programming concepts.
 {{< /imagetext >}}
 
 ---------------
@@ -29,7 +29,7 @@ Algernon is a concise C++ Geometry Processing Library focused on fundamental mes
 
 ### <a href="https://github.com/d-krylov/Mimzy" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Mimzy
 
-{{< imagetext src="/images/preview/terabithia.png">}}
+{{< imagetext src="/images/preview/mimzy.png">}}
 Mimzy is a C++ library dedicated to accelerating spatial queries and rendering tasks through efficient hierarchical data structures. It implements essential acceleration structures, including the Bounding Volume Hierarchy (BVH), KD-Tree, and Octree.
 {{< /imagetext >}}
 
