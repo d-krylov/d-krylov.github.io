@@ -8,5 +8,6 @@ fontClass = "font-pacifico"
     <div class="cell">{{< shadertoy id="ddfcW2" url="https://www.shadertoy.com/view/ddfcW2" title="Green Grass" >}}</div>
     <div class="cell">{{< shadertoy id="mdsyRM" url="https://www.shadertoy.com/view/mdsyRM" title="Simple Box"  >}}</div>
     <div class="cell">{{< shadertoy id="mtdSzM" url="https://www.shadertoy.com/view/mtdSzM" title="Dark Temple" >}}</div>
+    <div class="cell">{{< shadertoy id="dlyGWt" url="https://www.shadertoy.com/view/dlyGWt" title="Autumn Forest" >}}</div>
   </div>
 </div>

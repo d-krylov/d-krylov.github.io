@@ -5,7 +5,7 @@ title = "Projects"
 
 ### <a href="https://github.com/d-krylov/Innsmouth" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Innsmouth - Vulkan Graphics Library
 
-{{< imagetext src="/images/preview/terabithia.png">}}
+{{< imagetext src="/images/website/placeholder.png">}}
 Innsmouth is a C++ project for experimenting with the Vulkan graphics API. It provides convenient wrapper classes for Vulkan objects and supports rendering of GLTF models. The project is designed as a lightweight framework for testing and exploring rendering techniques.
 {{< /imagetext >}}
 
@@ -21,7 +21,7 @@ Terabithia is a C++ experimental framework built around OpenGL. It provides conv
 
 ### <a href="https://github.com/d-krylov/Algernon" target="_blank" class="icon is-large"><i class="fab fa-github href-icon-color"></i></a> Algernon - Geometry Processing Library
 
-{{< imagetext src="/images/preview/terabithia.png">}}
+{{< imagetext src="/images/website/placeholder.png">}}
 Algernon is a concise C++ Geometry Processing Library focused on fundamental mesh manipulation and topological operations. It features mesh loading from standard formats like GLTF and OBJ, employs the half-edge data structure for efficient topology access, and includes algorithms such as Marching Cubes for surface reconstruction and Conway Polyhedron Operators for geometric transformations.
 {{< /imagetext >}}
 
