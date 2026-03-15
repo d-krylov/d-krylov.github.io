@@ -6,6 +6,10 @@ summary = ''
 tags = ["Graphics", "Geometry"]
 +++
 
+## Introduction
+
+Прежде 
+
 ## Navigation
 
 Get halfedges around vertex:

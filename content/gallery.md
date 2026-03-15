@@ -7,5 +7,6 @@ title = "Gallery"
     <div class="cell">{{< image src="/images/gallery/tree.png" title="Random Tree" >}}</div>
     <div class="cell">{{< image src="/images/gallery/koch.png" title="Koch snowflake" >}}</div>
     <div class="cell">{{< image src="/images/gallery/truchet.png" title="Truchet in 3D" >}}</div>
+    <div class="cell">{{< image src="/images/gallery/christmas_tree.png" title="Christmas Tree" >}}</div>
   </div>
 </div>

@@ -9,6 +9,8 @@ tags = ["Graphics", "Mathematics"]
 
 ## Triangle
 
+## Plane
+
 
 
 ## Sphere

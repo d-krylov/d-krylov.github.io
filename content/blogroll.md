@@ -14,6 +14,10 @@ title = "Blogroll"
 4. [Jacco's Blog](https://jacco.ompf2.com/)
 5. [Nathan Reed](https://www.reedbeta.com/)
 6. [lisyarus blog](https://lisyarus.github.io/blog/)
+7. [Interplay of Light](https://interplayoflight.wordpress.com/)
+8. [Nathan Reed](https://www.reedbeta.com/)
+9. [Scthe's blog](https://www.sctheblog.com/)
+10. [Jendrik Illner](https://www.jendrikillner.com/)
 
 ### Mathematics
 
@@ -21,6 +25,7 @@ title = "Blogroll"
 2. [Yufei Zhao](https://yufeizhao.com/)
 3. [XOR's Hammer](https://xorshammer.com/)
 4. [A Point of View](https://dgrozev.wordpress.com/)
+5. [Azimuth](https://johncarlosbaez.wordpress.com/)
 
 </div>
 
@@ -42,5 +47,6 @@ title = "Blogroll"
 3. [Bob Nystrom](https://journal.stuffwithstuff.com/)
 4. [Aleksa Gordic](https://www.aleksagordic.com/)
 5. [Simon Boehm](https://siboehm.com/)
+6. [A Random Walk Through Geek-Space](https://www.sebastiansylvan.com/)
 
 </div>

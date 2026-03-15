@@ -39,6 +39,14 @@ summary {
   margin-right: auto;
   max-width: 800px;
   height: auto;
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+.blog-image:active {
+  transform: scale(2.0);
+  cursor: zoom-out;
+  z-index: 10;
 }
 
 .href-icon-color {
